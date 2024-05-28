@@ -1,0 +1,83 @@
+.homeContainer {
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.searchBar input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.searchBar button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navButtons button {
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.categoryButton {
+  position: relative;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.categoryButton:hover .dropdownContent {
+  display: block;
+}
+
+.dropdownContent a {
+  color: #333333;
+  padding: 10px 20px;
+  display: block;
+}
+
+.dropdownContent a:hover {
+  background-color: #008080;
+  color: #ffffff;
+}
+
+.bodyContent {
+  padding: 20px;
+}
+
+.productCard {
+  background-color: #ffffff;
+  height: 1000px;
+}
